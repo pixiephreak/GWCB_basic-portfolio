@@ -58,9 +58,8 @@ footer, .containter:after {
 
 .group h1, h2 {
 	color: #4aaaa5;
+	border-bottom: .1em solid #ccc;
 }
-
-
 
 h1, h2 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -74,11 +73,35 @@ h1, h2 {
 
 }
 
+#content img {
+	float: left;
+	padding: 2em 2em 0 0;
+}
+
+#content p {
+	line-height: 2em;
+	padding-top: 2em;
+}
+
+.content-inner {
+	padding: .75em 0;
+}
+
 #social {
 	width: 20%;
 	float: right;
 	        /*top right bottom left*/
 	margin: 0em 8em 4em 0em;
+}
+
+#social div {
+	border: none;
+	padding: 0;
+}
+
+#social-icons {
+	text-align: center;
+	width: 100%;
 }
 
 nav {
@@ -112,6 +135,7 @@ li a span{
 
 
 #name {
+	color: #fff;
 	background-color: #5ba;
 	float: left;
 	font-size: 2em;
@@ -122,10 +146,12 @@ li a span{
 
 #github {
 	color: #000;
+	font-size: 5em;
 }
 
 #linkedin {
 	color: #0077B5;
+	font-size: 5em;
 
 }
 
@@ -134,6 +160,7 @@ li a span{
 	color: #fff;
 	border-radius: 10px;
 	position: relative;
-	bottom: 10px;
-	padding: .85em .9em;
+	padding: .6em;
+	font-size: 2em;
+	bottom: 18px;
 }
