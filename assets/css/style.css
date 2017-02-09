@@ -24,7 +24,7 @@ html,body {
 #container {
    min-height:100%;
    position:relative;
-   height: 110%;
+   height: 140%;
 }
 
 #body {
@@ -101,6 +101,22 @@ h1 {
 
 #content p {
 	line-height: 30px;
+}
+
+#content-portfolio {
+	width: 598px;
+	float: left;
+	text-align: center;
+}
+
+#content-portfolio img {
+	padding: 18px;
+}
+
+#content-portfolio img:last-child {
+	padding: 18px;
+	text-align: left;
+	border: 10px solid red;
 }
 
 #social {
